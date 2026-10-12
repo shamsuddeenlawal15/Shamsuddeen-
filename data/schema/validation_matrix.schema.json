@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Day 1 validation matrix row",
+  "type": "object",
+  "required": [
+    "validation_id", "test_id", "observable", "model_code",
+    "verification_status", "notes"
+  ],
+  "properties": {
+    "test_id": {"enum": ["F7-1", "F7-2"]},
+    "model_code": {"enum": ["MELCOR", "SPHINCS"]},
+    "verification_status": {"enum": ["verified", "needs_secondary_check", "unverified", "blocked"]}
+  }
+}

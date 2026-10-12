@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Day 1 parameter row",
+  "type": "object",
+  "required": [
+    "parameter_id", "test_id", "category", "parameter_name", "unit",
+    "source_document", "source_page", "source_locator", "provenance_type",
+    "verification_status", "notes"
+  ],
+  "properties": {
+    "provenance_type": {"enum": ["published", "derived", "missing"]},
+    "verification_status": {"enum": ["verified", "needs_secondary_check", "unverified", "blocked"]}
+  }
+}

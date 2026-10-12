@@ -1,0 +1,2 @@
+# Day 1 utilities use only the Python 3 standard library.
+# Add pinned third-party packages only when a reviewed utility requires them.

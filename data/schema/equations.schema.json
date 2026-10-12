@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Day 1 equation row",
+  "type": "object",
+  "required": [
+    "equation_id", "equation_number", "model", "equation_text", "variables",
+    "source_page", "source_locator", "verification_status", "implementation_note"
+  ],
+  "properties": {
+    "model": {"enum": ["MELCOR", "SPHINCS"]},
+    "verification_status": {"enum": ["verified", "needs_secondary_check", "unverified", "blocked"]}
+  }
+}

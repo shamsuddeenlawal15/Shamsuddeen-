@@ -1,0 +1,58 @@
+parameter_id,test_id,category,parameter_name,symbol,value_text,value_numeric,unit,source_document,source_page,source_locator,provenance_type,verification_status,notes
+GEO-001,GLOBAL,facility_geometry,test vessel height,H_vessel,about 2.2,2.2,m,Louie et al. (2023),2,Section 2 and Fig. 1,published,verified,Approximate value as printed.
+GEO-002,GLOBAL,facility_geometry,test vessel diameter,D_vessel,1.3,1.3,m,Louie et al. (2023),2,Section 2,published,verified,
+GEO-003,GLOBAL,facility_geometry,test vessel volume,V_vessel,3.0,3.0,m^3,Louie et al. (2023),2,Fig. 1,published,verified,Figure label; not repeated in prose.
+MAT-001,GLOBAL,material,test vessel material,,stainless steel,,dimensionless,Louie et al. (2023),2,Section 2,published,verified,Alloy/grade not reported.
+MAT-002,GLOBAL,material,catch pan material,,carbon steel,,dimensionless,Louie et al. (2023),2,Section 2,published,verified,Grade not reported.
+GEO-004,GLOBAL,facility_geometry,catch pan thickness,t_pan,6,6,mm,Louie et al. (2023),2,Section 2 and Fig. 1,published,verified,
+GEO-005,GLOBAL,facility_geometry,catch pan surface area,A_pan,1,1,m^2,Louie et al. (2023),2,Section 2 and Fig. 1,published,verified,Planform dimensions/shape not stated.
+GEO-006,GLOBAL,facility_geometry,thermal insulation layer count,N_ins,2,2,count,Louie et al. (2023),2,Section 2,published,verified,
+GEO-007,GLOBAL,facility_geometry,thermal insulation thickness per layer,t_ins_layer,50,50,mm,Louie et al. (2023),2,Section 2,published,verified,Two layers attached to catch pan.
+GEO-008,GLOBAL,facility_geometry,total thermal insulation thickness,t_ins_total,100,100,mm,Louie et al. (2023),3,Fig. 2,published,verified,Also derivable as two 50 mm layers.
+BC-001,GLOBAL,boundary_condition,air ventilation flow rate,Q_air,approximately 3.0,3.0,m^3/min,Louie et al. (2023),2,Section 2,published,verified,Steady flow; reference-state definition not reported.
+SRC-001,GLOBAL,sodium_source,average sodium leak rate,m_dot_Na,3.3,3.3,g/s,Louie et al. (2023),2,Section 2,published,verified,Average value.
+SRC-002,GLOBAL,sodium_source,sodium discharge duration,t_discharge,"1,500",1500,s,Louie et al. (2023),2,Section 2,published,verified,
+SRC-003,GLOBAL,sodium_source,discharge morphology,,column shape,,dimensionless,Louie et al. (2023),2,Section 2,published,verified,Sodium falls and forms a pool.
+GEO-009,F7-1,facility_geometry,nozzle exit height above catch pan,h_nozzle,0.1,0.1,m,Louie et al. (2023),2,Section 2 and Fig. 1,published,verified,Key stated difference between tests.
+GEO-010,F7-2,facility_geometry,nozzle exit height above catch pan,h_nozzle,1.5,1.5,m,Louie et al. (2023),2,Section 2 and Fig. 1,published,verified,Key stated difference between tests.
+EXP-001,F7-1,experimental_result,final sodium pool area,A_pool_final,0.28,0.28,m^2,Louie et al. (2023),2,Section 2,published,verified,
+EXP-002,F7-2,experimental_result,final sodium pool area,A_pool_final,0.30,0.30,m^2,Louie et al. (2023),2,Section 2,published,verified,
+MODG-001,GLOBAL,model_geometry,cylindrical wall area,A_wall,9.0,9.0,m^2,Louie et al. (2023),3,Fig. 2,published,verified,Numerical chamber representation; not explicitly a measured apparatus dimension.
+MODG-002,GLOBAL,model_geometry,cylindrical wall thickness,t_wall,8,8,mm,Louie et al. (2023),3,Fig. 2,published,verified,Numerical chamber representation.
+MODG-003,GLOBAL,model_geometry,rectangular top head area,A_top,1.3,1.3,m^2,Louie et al. (2023),3,Fig. 2,published,verified,Numerical chamber representation.
+MODG-004,GLOBAL,model_geometry,rectangular top head thickness,t_top,8,8,mm,Louie et al. (2023),3,Fig. 2,published,verified,Numerical chamber representation.
+MODG-005,GLOBAL,model_geometry,rectangular bottom head area,A_bottom,1.0,1.0,m^2,Louie et al. (2023),3,Fig. 2,published,verified,Numerical chamber representation.
+MODG-006,GLOBAL,model_geometry,rectangular bottom head thickness,t_bottom,6,6,mm,Louie et al. (2023),3,Fig. 2,published,verified,Numerical chamber representation.
+MODG-007,GLOBAL,model_geometry,chamber solid material,,stainless steel,,dimensionless,Louie et al. (2023),3,Fig. 2,published,verified,Relationship to carbon-steel experimental catch pan needs clarification.
+OBS-001,GLOBAL,measurement,pool temperature radial location,r,0.1,0.1,m,Louie et al. (2023),4,Fig. 4 legend and caption,published,verified,Shown for both tests.
+OBS-002,GLOBAL,measurement,pool temperature radial location,r,0.2,0.2,m,Louie et al. (2023),4,Fig. 4 legend and caption,published,verified,Shown for both tests.
+OBS-003,GLOBAL,measurement,pool temperature radial location,r,0.24,0.24,m,Louie et al. (2023),4,Fig. 4 legend and caption,published,verified,Shown for both tests.
+OBS-004,GLOBAL,measurement,pool combustion rate plotted range,,0 to 1.6,,g/s,Louie et al. (2023),4,Fig. 3 axis,published,verified,Axis range only; not a measurement.
+OBS-005,GLOBAL,measurement,pool temperature plotted range,,0 to 1000,,degC,Louie et al. (2023),4,Fig. 4 axis,published,verified,Axis range only; not a measurement.
+OBS-006,GLOBAL,measurement,aerosol concentration plotted range,,0.01 to 100,,g-Na/m^3,Louie et al. (2023),4,Fig. 5 logarithmic axis,published,verified,Axis range only; not a measurement.
+OBS-007,GLOBAL,measurement,results plotted time range,,0 to 3600,,s,Louie et al. (2023),4,Figs. 3-5 axes,published,verified,Axis range only.
+MEL-001,GLOBAL,MELCOR_input,oxygen diffusion coefficient,DAB,definition only; value not reported,,not reported,Louie et al. (2023),2,Table 1,published,verified,Determines oxygen-sodium reaction rate; numeric value absent.
+MEL-002,GLOBAL,MELCOR_input,fraction Na2O remaining in pool,FNA2O,definition only; value not reported,,dimensionless,Louie et al. (2023),2,Table 1,published,verified,Numeric value absent.
+MEL-003,GLOBAL,MELCOR_input,fraction Na2O2 remaining in pool,FNA2O2,definition only; value not reported,,dimensionless,Louie et al. (2023),2,Table 1,published,verified,Balance applied to atmosphere as aerosols; numeric value absent.
+MEL-004,GLOBAL,MELCOR_input,fraction oxygen consumed to form monoxide,FO2,definition only; value not reported,,dimensionless,Louie et al. (2023),2,Table 1,published,verified,Numeric value absent.
+MEL-005,GLOBAL,MELCOR_input,fraction sensible fire heat added to pool,FHEAT,definition only; value not reported,,dimensionless,Louie et al. (2023),2,Table 1,published,verified,Numeric value absent; table footnote wording is ambiguous.
+MISS-001,GLOBAL,missing_input,initial sodium mass or inventory,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,Leak rate/duration given but feed and retained inventory absent.
+MISS-002,GLOBAL,missing_input,initial sodium temperature,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-003,GLOBAL,missing_input,initial vessel gas temperature,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-004,GLOBAL,missing_input,initial vessel pressure,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-005,GLOBAL,missing_input,initial oxygen concentration,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-006,GLOBAL,missing_input,initial humidity,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-007,GLOBAL,missing_input,sodium purity or composition,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-008,GLOBAL,missing_input,nozzle diameter and detailed geometry,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-009,GLOBAL,missing_input,vent inlet and exhaust dimensions/locations,,,,not reported quantitatively,Louie et al. (2023),2,Fig. 1 and Section 2,missing,verified,Schematic locations only.
+MISS-010,GLOBAL,missing_input,thermal insulation material and properties,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-011,GLOBAL,missing_input,steel grades and thermophysical properties,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-012,GLOBAL,missing_input,sodium thermophysical property correlations and values,,,,not reported numerically,Louie et al. (2023),2-3,Section 3.1.2,missing,verified,Symbols defined; details deferred to Louie and Aoyagi (2021).
+MISS-013,GLOBAL,missing_input,reaction enthalpy and product split values,,,,not reported,Louie et al. (2023),2-4,Table 1 and full paper review,missing,verified,
+MISS-014,GLOBAL,missing_input,radiative properties,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-015,GLOBAL,missing_input,sensor axial coordinates and construction,,,,not reported,Louie et al. (2023),2-4,Figs. 1 and 4,missing,verified,Only three radial distances shown.
+MISS-016,GLOBAL,missing_input,sampling rate calibration and measurement uncertainty,,,,not reported,Louie et al. (2023),2-4,Full paper review,missing,verified,
+MISS-017,GLOBAL,missing_input,raw experimental time series,,available on request,,multiple,Louie et al. (2023),4,Data availability statement,missing,verified,Only graphical data published in article.
+MISS-018,GLOBAL,missing_input,MELCOR and SPHINCS version numbers,,,,not reported,Louie et al. (2023),2-4,Sections 3-4,missing,verified,
+MISS-019,GLOBAL,missing_input,numerical timestep convergence and nodalization details,,,,not reported,Louie et al. (2023),2-4,Sections 3-4,missing,verified,Method references cited.
+MISS-020,GLOBAL,missing_input,numeric validation error metrics and acceptance criteria,,,,not reported,Louie et al. (2023),3-4,Section 4 and Figs. 3-5,missing,verified,Assessment is graphical and qualitative.

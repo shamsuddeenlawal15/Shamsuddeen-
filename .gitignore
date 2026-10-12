@@ -1,0 +1,23 @@
+# Copyrighted/local source documents
+references/source/*.pdf
+references/source/*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# STAR-CCM+ binary/session output
+*.sim
+*.sim~
+*.ccm
+*.sce
+*.png
+*.csv~
+starccm-output/
+
+# General generated files
+.DS_Store
+.pytest_cache/
+build/
+dist/
