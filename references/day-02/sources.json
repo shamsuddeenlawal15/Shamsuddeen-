@@ -1,0 +1,60 @@
+[
+  {
+    "source_id": "L2023",
+    "access_status": "read",
+    "title": "Validation study of sodium pool fire modeling efforts in MELCOR and SPHINCS codes",
+    "citation": "Louie et al., Nuclear Engineering and Design 407 (2023) 112285",
+    "doi": "10.1016/j.nucengdes.2023.112285",
+    "identity_basis": "Supplied publisher PDF p.1",
+    "pages_read": "1-5",
+    "sha256": "bf55d2d991b0d1defc2e78486a1869b67b5888c48fc4826355493d667eb34afe",
+    "local_copy": "User-supplied Paper 1.pdf; not committed"
+  },
+  {
+    "source_id": "F1998",
+    "access_status": "not_retrieved",
+    "title": "Sodium Pool Combustion Test Run-F7 (Interim Report)",
+    "report_number": "PNC TN9410 98-074",
+    "identity_basis": "Citation in L2023 p.4 only; full author list not normalized",
+    "pages_read": "",
+    "verification_url": "https://jopss.jaea.go.jp/search/servlet/search?kw=PNC%20TN9410%2098-074"
+  },
+  {
+    "source_id": "S2021",
+    "access_status": "not_retrieved",
+    "title": "Sodium Fire Collaborative Study Progress–CNWG Fiscal Year 2020",
+    "report_number": "SAND2021-0136",
+    "doi": "10.2172/1761299",
+    "identity_basis": "Citation in L2023 p.5 only",
+    "pages_read": "",
+    "verification_url": "https://www.osti.gov/servlets/purl/1761299"
+  },
+  {
+    "source_id": "Y2001",
+    "access_status": "not_retrieved",
+    "citation": "Yamaguchi, Takata and Okano (2001), Nuclear Technology 136, 315–330",
+    "doi": "10.13182/NT01-A3248",
+    "identity_basis": "Citation in L2023 p.5 only",
+    "pages_read": "",
+    "verification_url": "https://doi.org/10.13182/NT01-A3248",
+    "access_note": "Identified through original paper; retrieval not attempted separately"
+  },
+  {
+    "source_id": "F1995",
+    "access_status": "not_retrieved",
+    "title": "Candidate: Thermodynamic and Transport Properties of Sodium Liquid and Vapor",
+    "report_number": "Candidate: ANL/RE-95/2 (Fink and Leibowitz, 1995)",
+    "doi": "10.2172/94649",
+    "identity_basis": "Unverified bibliographic search lead; no page read",
+    "pages_read": "",
+    "verification_url": "https://www.osti.gov/biblio/94649"
+  },
+  {
+    "source_id": "SIEMENS",
+    "access_status": "not_retrieved",
+    "title": "Siemens STAR-CCM+ vendor release, physics and installation documentation",
+    "identity_basis": "Official vendor destinations attempted; pages not returned",
+    "pages_read": "",
+    "verification_url": "https://support.sw.siemens.com/en-US/"
+  }
+]

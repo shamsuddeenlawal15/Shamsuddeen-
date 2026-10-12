@@ -6,9 +6,15 @@ validated in STAR-CCM+.
 
 ## Current scope
 
-Day 1 is complete and awaiting review. No STAR-CCM+ simulation has been
-executed and no experimental or numerical result is asserted without a
-page-level source.
+Day 1 documentation review is accepted. The [Day 2 review package](docs/day-02/README.md)
+is prepared with source-access limits, an additive parameter register and a
+conditional PC modeling strategy. Original F7/Sandia reports and release-specific
+Siemens documentation could not be retrieved through the environment proxy.
+No STAR-CCM+ installation was accessed and no simulation has been executed.
+
+**Equation corrections:** Day 2 visual review found two errors in the archived
+Day 1 equations. Read [Equation_Transcription_Audit.md](docs/day-02/Equation_Transcription_Audit.md)
+before implementation. The old files remain unchanged as historical records.
 
 The paper was reviewed from the user-provided attachment. For future local
 re-review it may be placed at `references/source/louie_2023_original.pdf` (the
@@ -16,17 +22,23 @@ file is intentionally excluded from Git). Run:
 
 ```bash
 python3 scripts/check_day1_data.py
+python3 scripts/day2_data.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-See [`docs/day-01/README.md`](docs/day-01/README.md) for the Day 1 status and
-review gate.
+Python 3.10 or newer and Git history containing the accepted Day 1 commit are
+required for the Day 2 validator. It checks provenance constraints and historical
+preservation; it cannot establish scientific accuracy.
+
+Review Day 2's remaining assumptions before detailed geometry, meshing or
+physical-model construction. The Day 1 documents retain their historical status.
 
 ## Repository layout
 
 ```text
 data/                  Source-preserving tabular research data
 docs/day-01/           Day 1 technical deliverables
+docs/day-02/           Day 2 evidence audit, PC strategy and publication roadmap
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks

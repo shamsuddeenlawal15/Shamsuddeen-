@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "S2021",
+    "url": "https://www.osti.gov/biblio/1761299",
+    "execution": "normal; escalated retry",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "S2021",
+    "url": "https://www.osti.gov/servlets/purl/1761299",
+    "execution": "escalated",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "S2021",
+    "url": "https://doi.org/10.2172/1761299",
+    "execution": "escalated",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "F1998",
+    "url": "https://jopss.jaea.go.jp/search/servlet/search?kw=PNC%20TN9410%2098-074",
+    "execution": "escalated",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "F1995",
+    "url": "https://www.osti.gov/biblio/94649",
+    "execution": "escalated",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "SIEMENS",
+    "url": "https://plm.sw.siemens.com/en-US/simcenter/fluids-thermal-simulation/star-ccm/",
+    "execution": "normal; escalated retry",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "SIEMENS",
+    "url": "https://support.sw.siemens.com/en-US/",
+    "execution": "normal",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  },
+  {
+    "source_id": "SIEMENS",
+    "url": "https://blogs.sw.siemens.com/simcenter/simcenter-star-ccm-2402-released/",
+    "execution": "normal",
+    "review_date": "2026-10-13",
+    "review_timezone": "Asia/Shanghai",
+    "curl_exit": 56,
+    "result": "CONNECT tunnel failed, response 403",
+    "content_retrieved": false
+  }
+]
