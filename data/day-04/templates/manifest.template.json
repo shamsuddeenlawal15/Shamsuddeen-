@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "case": null,
+  "run_status": "planned",
+  "evidence_kind": "solver_export",
+  "solver_build": null,
+  "os": null,
+  "processes": 4,
+  "cells": null,
+  "dt_s": 0.1,
+  "end_time_s": 10,
+  "physics_id": null,
+  "spatial_scheme": null,
+  "temporal_scheme": null,
+  "iteration_policy": null,
+  "mesh_family": null,
+  "mesh_id": null,
+  "geometry_id": "synthetic_cube_0p1m",
+  "initialization": null,
+  "reference_sampling": "cell_average",
+  "mesh_geometry": "orthogonal_rectangular",
+  "parameters": {
+    "L_m": 0.1,
+    "rho_kg_m3": 1,
+    "c_J_kgK": 1000,
+    "k_W_mK": 0.1,
+    "mu_Pa_s": 0.001,
+    "T0_K": 300,
+    "q_vol_W_m3": null,
+    "lid_speed_m_s": null
+  }
+}

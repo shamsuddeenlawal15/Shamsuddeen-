@@ -15,6 +15,7 @@ __pycache__/
 *.png
 *.csv~
 starccm-output/
+runs/
 
 # General generated files
 .DS_Store

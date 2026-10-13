@@ -1,0 +1,34 @@
+case_id,parameter,value,unit,role,provenance,build_confirmation,notes
+ALL,L_x,0.1,m,synthetic_input,Approved Day 3 plan,required,Cube spans 0 to L in x
+ALL,L_y,0.1,m,synthetic_input,Approved Day 3 plan,required,Cube spans 0 to L in y
+ALL,L_z,0.1,m,synthetic_input,Approved Day 3 plan,required,Top wall is z=L
+ALL,rho,1,kg/m^3,synthetic_input,Approved Day 3 plan,required,Constant density; no ideal-gas law
+ALL,mu,0.001,Pa*s,synthetic_input,Approved Day 3 plan,required,Dynamic viscosity
+ALL,thermal_storage_c,1000,J/(kg*K),synthetic_input,Approved Day 3 plan,required,Must match documented reduced energy equation
+ALL,k,0.1,W/(m*K),synthetic_input,Approved Day 3 plan,required,Constant conductivity
+ALL,T0,300,K,synthetic_input,Approved Day 3 plan,required,Synthetic reference
+ALL,initial_velocity,0;0;0,m/s,synthetic_input,Approved Day 3 plan,required,Quiescent initial field
+ALL,gravity,0;0;0,m/s^2,synthetic_input,Approved Day 3 plan,required,Disabled
+ALL,gauge_pressure_reference,0,Pa,synthetic_input,Approved Day 3 plan,required,Closed-system null-space constraint; no pressure outlet
+ALL,dt_trial,0.1,s,synthetic_input,Approved Day 3 plan,required,Trial only
+ALL,end_time,10,s,synthetic_input,Approved Day 3 plan,required,Complete analytical comparison target
+ALL,initial_cells_min,20000,count,synthetic_input,Approved Day 3 plan,required,Provisional resource budget
+ALL,initial_cells_max,50000,count,synthetic_input,Approved Day 3 plan,required,Not mesh independence
+ALL,processes_initial,4,count,synthetic_input,Approved Day 3 plan,required,Actual licensed processes must be confirmed
+ALL,processes_comparison,8,count,synthetic_input,Approved Day 3 plan,required,Conditional on entitlement
+H1-A,initial_temperature,300,K,synthetic_input,Approved Day 3 plan,required,Not an F7 initial temperature
+H1-A,q_vol,0,W/m^3,synthetic_input,Approved Day 3 plan,required,Uniform volumetric source; D has energy disabled
+H1-A,lid_speed,0,m/s,synthetic_input,Approved Day 3 plan,required,Tangential +x velocity on z=L; all other walls stationary
+H1-A,energy_equation,on,state,configuration,Approved Day 3 plan,required,A/B/C thermal scalar model; no extra work/dissipation source
+H1-B,initial_temperature,300,K,synthetic_input,Approved Day 3 plan,required,Not an F7 initial temperature
+H1-B,q_vol,100,W/m^3,synthetic_input,Approved Day 3 plan,required,Uniform volumetric source; D has energy disabled
+H1-B,lid_speed,0,m/s,synthetic_input,Approved Day 3 plan,required,Tangential +x velocity on z=L; all other walls stationary
+H1-B,energy_equation,on,state,configuration,Approved Day 3 plan,required,A/B/C thermal scalar model; no extra work/dissipation source
+H1-C,initial_temperature,300 + cos(pi*x/0.1),K,synthetic_input,Approved Day 3 plan,required,Map to verified stored-field representation; cell-average initialization preferred
+H1-C,q_vol,0,W/m^3,synthetic_input,Approved Day 3 plan,required,Uniform volumetric source; D has energy disabled
+H1-C,lid_speed,0,m/s,synthetic_input,Approved Day 3 plan,required,Tangential +x velocity on z=L; all other walls stationary
+H1-C,energy_equation,on,state,configuration,Approved Day 3 plan,required,A/B/C thermal scalar model; no extra work/dissipation source
+H1-D,initial_temperature,300,K,synthetic_input,Approved Day 3 plan,required,Not an F7 initial temperature
+H1-D,q_vol,0,W/m^3,synthetic_input,Approved Day 3 plan,required,Uniform volumetric source; D has energy disabled
+H1-D,lid_speed,0.1,m/s,synthetic_input,Approved Day 3 plan,required,Tangential +x velocity on z=L; all other walls stationary
+H1-D,energy_equation,off/isothermal,state,configuration,Approved Day 3 plan,required,A/B/C thermal scalar model; no extra work/dissipation source

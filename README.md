@@ -6,6 +6,11 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 4 H1 preparation guide](docs/day-04/Day_04_Implementation_Guide.md)
+adds input/boundary tables, export schemas and tested Python balance/error/
+refinement processing. STAR-CCM+ GUI steps remain build-gated; no Java API or
+local solver execution is claimed. Day 3 review is approved.
+
 The [Day 3 readiness plan](docs/day-03/Updated_Day_03_Research_Log.md) records
 the user's i9-14900HX, 32 GB RAM and working-license confirmation. It proposes
 local nonreactive benchmarks and resource/verification checks; the exact
@@ -29,6 +34,7 @@ file is intentionally excluded from Git). Run:
 python3 scripts/check_day1_data.py
 python3 scripts/day2_data.py --check
 python3 -m unittest discover -s tests -v
+python3 tests/H1_Postprocessing_Tests.py -v
 ```
 
 Python 3.10 or newer and Git history containing the accepted Day 1 commit are
@@ -45,6 +51,7 @@ data/                  Source-preserving tabular research data
 docs/day-01/           Day 1 technical deliverables
 docs/day-02/           Day 2 evidence audit, PC strategy and publication roadmap
 docs/day-03/           Local computing readiness and proposed H1 verification plan
+docs/day-04/           H1 implementation preparation and version-gated GUI guide
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks

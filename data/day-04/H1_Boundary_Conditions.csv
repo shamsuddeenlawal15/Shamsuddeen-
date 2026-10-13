@@ -1,0 +1,25 @@
+case_id,boundary_name,plane,outward_normal,velocity_m_s,thermal_condition,heat_flux_in_W_m2,provenance
+H1-A,X_MIN,x=0,-1;0;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-A,X_MAX,x=0.1,1;0;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-A,Y_MIN,y=0,0;-1;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-A,Y_MAX,y=0.1,0;1;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-A,Z_MIN,z=0,0;0;-1,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-A,Z_MAX,z=0.1,0;0;1,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-B,X_MIN,x=0,-1;0;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-B,X_MAX,x=0.1,1;0;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-B,Y_MIN,y=0,0;-1;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-B,Y_MAX,y=0.1,0;1;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-B,Z_MIN,z=0,0;0;-1,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-B,Z_MAX,z=0.1,0;0;1,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-C,X_MIN,x=0,-1;0;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-C,X_MAX,x=0.1,1;0;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-C,Y_MIN,y=0,0;-1;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-C,Y_MAX,y=0.1,0;1;0,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-C,Z_MIN,z=0,0;0;-1,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-C,Z_MAX,z=0.1,0;0;1,0;0;0,adiabatic impermeable no-slip wall,0,Approved synthetic Day 3 plan; not F7
+H1-D,X_MIN,x=0,-1;0;0,0;0;0,energy disabled; isothermal surrogate,,Approved synthetic Day 3 plan; not F7
+H1-D,X_MAX,x=0.1,1;0;0,0;0;0,energy disabled; isothermal surrogate,,Approved synthetic Day 3 plan; not F7
+H1-D,Y_MIN,y=0,0;-1;0,0;0;0,energy disabled; isothermal surrogate,,Approved synthetic Day 3 plan; not F7
+H1-D,Y_MAX,y=0.1,0;1;0,0;0;0,energy disabled; isothermal surrogate,,Approved synthetic Day 3 plan; not F7
+H1-D,Z_MIN,z=0,0;0;-1,0;0;0,energy disabled; isothermal surrogate,,Approved synthetic Day 3 plan; not F7
+H1-D,Z_MAX,z=0.1,0;0;1,0.1;0;0,energy disabled; isothermal surrogate,,Approved synthetic Day 3 plan; not F7
