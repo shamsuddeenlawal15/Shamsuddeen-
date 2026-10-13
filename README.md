@@ -6,6 +6,12 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 5 H1-A local operator package](docs/day-05/Day_05_Local_Setup_Guide.md)
+records Day 4 approval and prepares build-gated setup, mesh diagnostics,
+execution/resource logging and native-export review. Actual local execution
+and numerical results remain pending. No H1-B/C/D or sodium work is authorized
+by this package.
+
 The [Day 4 H1 preparation guide](docs/day-04/Day_04_Implementation_Guide.md)
 adds input/boundary tables, export schemas and tested Python balance/error/
 refinement processing. STAR-CCM+ GUI steps remain build-gated; no Java API or
@@ -52,6 +58,7 @@ docs/day-01/           Day 1 technical deliverables
 docs/day-02/           Day 2 evidence audit, PC strategy and publication roadmap
 docs/day-03/           Local computing readiness and proposed H1 verification plan
 docs/day-04/           H1 implementation preparation and version-gated GUI guide
+docs/day-05/           H1-A local setup and blank evidence/results registers
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks

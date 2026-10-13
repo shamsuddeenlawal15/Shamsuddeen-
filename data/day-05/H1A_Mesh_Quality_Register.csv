@@ -1,0 +1,26 @@
+metric,scope,expected_value,unit,expected_basis,observed_value,acceptance_reference,evidence_file,status
+cell_count,whole_region,32768,cell,32 cubed target,,,,pending
+subdivisions_x,whole_region,32,cell,uniform structured target,,,,pending
+subdivisions_y,whole_region,32,cell,uniform structured target,,,,pending
+subdivisions_z,whole_region,32,cell,uniform structured target,,,,pending
+spacing,each_axis,0.003125,m,0.1/32 target,,,,pending
+volume,whole_region,0.001,m3,0.1 cubed reference,,,,pending
+uniform_cell_volume,all_cells,3.0517578125e-8,m3,(0.1/32) cubed reference,,,,pending
+area,X_MIN,0.01,m2,0.1 squared reference,,,,pending
+area,X_MAX,0.01,m2,0.1 squared reference,,,,pending
+area,Y_MIN,0.01,m2,0.1 squared reference,,,,pending
+area,Y_MAX,0.01,m2,0.1 squared reference,,,,pending
+area,Z_MIN,0.01,m2,0.1 squared reference,,,,pending
+area,Z_MAX,0.01,m2,0.1 squared reference,,,,pending
+boundary_area,all_six_walls,0.06,m2,six faces reference,,,,pending
+boundary_face_count,all_six_walls,6144,face,6*32*32 target,,,,pending
+internal_face_count,whole_region,95232,face,3*31*32*32 target; count partition faces once,,,,pending
+connected_components,whole_region,1,component,one connected sealed region,,,,pending
+invalid_cells,whole_region,0,cell,no invalid or nonpositive-volume cells required,,,,pending
+open_boundary_edges,exterior,0,edge,closed watertight cube required,,,,pending
+rectangular_orthogonality,all_cells,,,verify axes and bounds from connectivity,,,,pending
+outward_normals,six_walls,,,verify signed axis normals,,,,pending
+minimum_volume,whole_region,,m3,strictly positive; inspect actual minimum,,,,pending
+skewness,whole_region,,,record metric definition and build-specific limit,,,,pending
+nonorthogonality,whole_region,,,record metric definition units and build-specific limit,,,,pending
+quality_distribution,whole_region,,,record extrema and distribution using exact-build manual,,,,pending
