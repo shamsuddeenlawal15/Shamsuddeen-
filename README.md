@@ -6,6 +6,11 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 3 readiness plan](docs/day-03/Updated_Day_03_Research_Log.md) records
+the user's i9-14900HX, 32 GB RAM and working-license confirmation. It proposes
+local nonreactive benchmarks and resource/verification checks; the exact
+STAR-CCM+ release and OS remain unknown. No benchmark has been executed.
+
 Day 1 documentation review is accepted. The [Day 2 review package](docs/day-02/README.md)
 is prepared with source-access limits, an additive parameter register and a
 conditional PC modeling strategy. Original F7/Sandia reports and release-specific
@@ -39,6 +44,7 @@ physical-model construction. The Day 1 documents retain their historical status.
 data/                  Source-preserving tabular research data
 docs/day-01/           Day 1 technical deliverables
 docs/day-02/           Day 2 evidence audit, PC strategy and publication roadmap
+docs/day-03/           Local computing readiness and proposed H1 verification plan
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks
