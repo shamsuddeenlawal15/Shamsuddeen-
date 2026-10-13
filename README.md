@@ -6,6 +6,12 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 6 F7 geometry reconstruction review](docs/day-06/F7_Experimental_Geometry_Review.md)
+is the current research priority. It separates apparatus evidence from numerical
+heat structures, provides distinct F7-1/F7-2 specifications and records unresolved
+geometry. STAR-CCM+ 2402 and Windows 11 are now user-confirmed; exact patch/build
+and CAD capabilities remain locally unverified. No definitive F7 CAD is built.
+
 The [Day 5 H1-A local operator package](docs/day-05/Day_05_Local_Setup_Guide.md)
 records Day 4 approval and prepares build-gated setup, mesh diagnostics,
 execution/resource logging and native-export review. Actual local execution
@@ -59,6 +65,7 @@ docs/day-02/           Day 2 evidence audit, PC strategy and publication roadmap
 docs/day-03/           Local computing readiness and proposed H1 verification plan
 docs/day-04/           H1 implementation preparation and version-gated GUI guide
 docs/day-05/           H1-A local setup and blank evidence/results registers
+docs/day-06/           Source-backed F7 reconstruction specifications and review gates
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks
