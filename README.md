@@ -6,6 +6,12 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 9 mesh-readiness package](docs/day-09/Day_09_Research_Log.md)
+provides conditional strategy, domain candidates, explicitly hypothetical
+resource budgets and future sensitivity/quality criteria. Meshing remains
+**blocked** by unapproved geometry. No executable mesh recipe, mesh generation,
+physics setup or simulation is claimed.
+
 The [Day 8 construction-preparation package](docs/day-08/Day_08_Research_Log.md)
 defines the requested local project tree, case records and blank CAD audit.
 No local model or screenshots are available; definitive F7 construction and
@@ -82,6 +88,7 @@ docs/day-05/           H1-A local setup and blank evidence/results registers
 docs/day-06/           Source-backed F7 reconstruction specifications and review gates
 docs/day-07/           Geometry review, parametric inputs, QA and Day 8 readiness gates
 docs/day-08/           Local construction specification, pending CAD records and audit
+docs/day-09/           Blocked mesh-readiness review and provisional strategy/budgets
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks
