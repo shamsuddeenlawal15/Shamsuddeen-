@@ -6,6 +6,12 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 10 physics-framework package](docs/day-10/Day_10_Research_Log.md)
+defines staged nonreactive/CHT, sodium and aerosol requirements without
+activating any models. Material properties, initial/boundary data and local
+capabilities remain pending; geometry/mesh evidence still blocks solver setup.
+No CFD model completion, simulation or experimental validation is claimed.
+
 The [Day 9 mesh-readiness package](docs/day-09/Day_09_Research_Log.md)
 provides conditional strategy, domain candidates, explicitly hypothetical
 resource budgets and future sensitivity/quality criteria. Meshing remains
@@ -89,6 +95,7 @@ docs/day-06/           Source-backed F7 reconstruction specifications and review
 docs/day-07/           Geometry review, parametric inputs, QA and Day 8 readiness gates
 docs/day-08/           Local construction specification, pending CAD records and audit
 docs/day-09/           Blocked mesh-readiness review and provisional strategy/budgets
+docs/day-10/           Inactive physics architecture, properties, BCs and monitor framework
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks
