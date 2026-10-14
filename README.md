@@ -6,6 +6,13 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 8 construction-preparation package](docs/day-08/Day_08_Research_Log.md)
+defines the requested local project tree, case records and blank CAD audit.
+No local model or screenshots are available; definitive F7 construction and
+mesh readiness remain blocked. Provisional envelope and empty vent-name slots
+are explicitly separated from experimental geometry. No material/physics,
+mesh or solver operation has been performed.
+
 The [Day 7 geometry verification package](docs/day-07/Day_07_Research_Log.md)
 reviews Day 6, supplies source-linked CAD inputs and a tested independent
 geometry-check utility. Full F7 CAD remains **blocked** by unresolved essential
@@ -74,6 +81,7 @@ docs/day-04/           H1 implementation preparation and version-gated GUI guide
 docs/day-05/           H1-A local setup and blank evidence/results registers
 docs/day-06/           Source-backed F7 reconstruction specifications and review gates
 docs/day-07/           Geometry review, parametric inputs, QA and Day 8 readiness gates
+docs/day-08/           Local construction specification, pending CAD records and audit
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks
