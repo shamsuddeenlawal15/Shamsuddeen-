@@ -6,8 +6,14 @@ validated in STAR-CCM+.
 
 ## Current scope
 
+The [Day 7 geometry verification package](docs/day-07/Day_07_Research_Log.md)
+reviews Day 6, supplies source-linked CAD inputs and a tested independent
+geometry-check utility. Full F7 CAD remains **blocked** by unresolved essential
+dimensions and local capability evidence. The proposed first Day 8 geometry
+operation is a nonphysical reference datum; Day 8 has not started.
+
 The [Day 6 F7 geometry reconstruction review](docs/day-06/F7_Experimental_Geometry_Review.md)
-is the current research priority. It separates apparatus evidence from numerical
+is the reviewed baseline. It separates apparatus evidence from numerical
 heat structures, provides distinct F7-1/F7-2 specifications and records unresolved
 geometry. STAR-CCM+ 2402 and Windows 11 are now user-confirmed; exact patch/build
 and CAD capabilities remain locally unverified. No definitive F7 CAD is built.
@@ -47,6 +53,7 @@ python3 scripts/check_day1_data.py
 python3 scripts/day2_data.py --check
 python3 -m unittest discover -s tests -v
 python3 tests/H1_Postprocessing_Tests.py -v
+python3 scripts/F7_Geometry_Consistency_Checks.py analytic
 ```
 
 Python 3.10 or newer and Git history containing the accepted Day 1 commit are
@@ -66,6 +73,7 @@ docs/day-03/           Local computing readiness and proposed H1 verification pl
 docs/day-04/           H1 implementation preparation and version-gated GUI guide
 docs/day-05/           H1-A local setup and blank evidence/results registers
 docs/day-06/           Source-backed F7 reconstruction specifications and review gates
+docs/day-07/           Geometry review, parametric inputs, QA and Day 8 readiness gates
 models/starccm/        Future simulation conventions; no model files yet
 references/            Citation metadata and local source-file instructions
 scripts/               Reproducible, standard-library data checks
